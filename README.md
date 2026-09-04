@@ -1,40 +1,54 @@
-# My Static Website
+My Static Website
+Task 5 - Deploy a Static Website Using GitHub Pages
 
-## Task 5 - Deploy a Static Website Using GitHub Pages
+This project demonstrates how to create and deploy a simple static website using Git, GitHub, and GitHub Pages.
 
-This project demonstrates how to create and deploy a static website using GitHub Pages.
+Objective
 
-## Technologies Used
+The objective of this task is to understand version control, static website hosting, and the deployment workflow using GitHub Pages.
 
-- HTML
-- CSS
-- JavaScript
-- Git
-- GitHub
-- GitHub Pages
+Technologies Used
+HTML
+CSS
+JavaScript
+Git
+GitHub
+GitHub Pages
+Visual Studio Code
+Features
+Simple portfolio website
+Responsive design
+HTML structure
+CSS styling
+JavaScript interaction
+Free hosting using GitHub Pages
+Project Files
+index.html - Contains the structure and content of the website.
+style.css - Contains the styling and design of the website.
+script.js - Contains the JavaScript functionality.
+README.md - Contains project documentation and interview questions and answers.
+Deployment
 
-## Features
+This website is deployed using GitHub Pages from the main branch and the root folder.
 
-- Simple portfolio website
-- Responsive design
-- HTML structure
-- CSS styling
-- JavaScript interaction
+Live Website
 
-## Deployment
+https://mdbilalahmed2005.github.io/
 
-This website is deployed using GitHub Pages.  
+GitHub Repository
+
+https://github.com/MDBilalAhmed2005/MDBilalAhmed2005.github.io
 
 Interview Questions and Answers
-1. What is Git and why use it?
+## 1. What is Git and why use it?
 
 Git is a distributed version control system used to track changes in files and source code. It helps developers manage different versions of a project, maintain a history of changes, work on different branches, and collaborate with other developers.
 
-2. How do you push code to GitHub?
+## 2. How do you push code to GitHub?
 
 To push code to GitHub, we first add the project files, create a commit, connect the local repository to the GitHub repository, and then push the changes.
 
-Common Git commands are:
+Common commands are:
 
 git add .
 git commit -m "Initial commit"
@@ -49,13 +63,13 @@ git add .
 git commit -m "Update website"
 git push
 
-3. What is GitHub Pages?
+## 3. What is GitHub Pages?
 
 GitHub Pages is a free hosting service provided by GitHub. It allows users to host static websites directly from a GitHub repository.
 
 In this project, the website files are stored in the GitHub repository and GitHub Pages publishes the website online.
 
-4. What is the difference between static and dynamic websites?
+## 4. What is the difference between static and dynamic websites?
 
 A static website contains predefined files such as HTML, CSS, and JavaScript. The content is generally fixed and is delivered to visitors as stored.
 
@@ -65,7 +79,7 @@ Examples:
 
 Static website: Portfolio website, documentation website, simple landing page.
 Dynamic website: Online shopping website, social media website, banking application.
-5. How do you revert commits in Git?
+## 5. How do you revert commits in Git?
 
 The git revert command is used to undo the changes introduced by a previous commit while keeping the Git history.
 
@@ -76,7 +90,7 @@ git revert <commit-id>
 
 This creates a new commit that reverses the changes made by the selected commit.
 
-6. What is branching in Git?
+## 6. What is branching in Git?
 
 Branching allows developers to create separate lines of development in a Git repository.
 
@@ -90,7 +104,7 @@ git checkout feature
 
 After completing the work, the feature branch can be merged into the main branch.
 
-7. Explain pull requests.
+## 7. Explain pull requests.
 
 A pull request is a request to merge changes from one branch into another branch on GitHub.
 
@@ -101,7 +115,7 @@ Discuss changes with other developers.
 Find and fix problems.
 Run tests before merging.
 Approve changes before they are merged.
-8. How do you resolve merge conflicts?
+## 8. How do you resolve merge conflicts?
 
 A merge conflict occurs when Git cannot automatically combine changes from different branches.
 
@@ -120,7 +134,7 @@ Example:
 git add .
 git commit -m "Resolve merge conflict"
 
-9. How can you host a website for free?
+## 9. How can you host a website for free?
 
 A static website can be hosted for free using GitHub Pages.
 
@@ -137,7 +151,7 @@ For this project, the live website is:
 
 https://mdbilalahmed2005.github.io/
 
-10. What is continuous deployment?
+## 10. What is continuous deployment?
 
 Continuous deployment is a software development practice where code changes are automatically deployed to a live environment after passing the required checks.
 
@@ -156,4 +170,8 @@ Git Push
 Pull Requests
 Merge Conflicts
 Static Hosting
-Continuous Deployment 
+Continuous Deployment
+Conclusion
+
+This task helped me understand how to create a static website, manage the project using Git, upload the project to GitHub, and deploy the website using GitHub Pages.
+
